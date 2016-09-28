@@ -5,7 +5,6 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
@@ -81,11 +80,6 @@ public class SunshineView extends View {
 
         double endX = Math.cos(Math.toRadians(offsetSpin)) * (radius + SUNMARG + SUNWITH);
         double endY = Math.sin(Math.toRadians(offsetSpin)) * (radius + SUNMARG + SUNWITH);
-//        sunshineStartX = Math.cos(Math.toRadians(a + offsetSpin)) * (sunRadius + SPACE_SUNSHINE + sunPaint.getStrokeWidth()) + getWidth() * .5f;
-//        sunshineStartY = Math.sin(Math.toRadians(a + offsetSpin)) * (sunRadius + SPACE_SUNSHINE + sunPaint.getStrokeWidth()) + offsetY + lineStartY;
-//
-//        sunshineStopX = Math.cos(Math.toRadians(a + offsetSpin)) * (sunRadius + SPACE_SUNSHINE + SUNSHINE_LINE_LENGTH + sunPaint.getStrokeWidth()) + getWidth() * .5f;
-//        sunshineStopY = Math.sin(Math.toRadians(a + offsetSpin)) * (sunRadius + SPACE_SUNSHINE + SUNSHINE_LINE_LENGTH + sunPaint.getStrokeWidth()) + offsetY + lineStartY;
 
 
         //绘制太阳光芒

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.scroller.helin.myscrollerdemo.view.TestMeasureView
+        android:id="@+id/tes_path"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ee5544"
+        android:layout_margin="20dp"
+        android:padding="10dp" />
+
+
+    <ImageView
+        android:id="@+id/coin_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/coin" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/version" />
+
+    <ImageView
+        android:id="@+id/wallet_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/wallet" />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        android:text="start" />
+
+    <com.scroller.helin.myscrollerdemo.view.SunLodingView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="140dp"
+        android:background="#e45534"
+        android:id="@+id/sunLodingView" />
+</FrameLayout>
